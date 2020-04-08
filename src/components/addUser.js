@@ -1,8 +1,6 @@
 import React, { Component } from "react";
 import axios from "axios";
 import { Link } from "react-router-dom";
-import LoginNavbar from "./loginNavbar";
-import Header from "./navbar";
 
 export default class Register extends Component {
   constructor() {

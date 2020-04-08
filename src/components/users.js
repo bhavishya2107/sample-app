@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import axios from "axios";
-import LoginNavbar from "./loginNavbar";
 import { Link, withRouter } from "react-router-dom";
 
 class Users extends Component {

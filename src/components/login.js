@@ -32,7 +32,7 @@ class Login extends Component {
         if (updateUser) {
           console.log(updateUser);
           updateUser.email === "admin@admin.com"
-            ? (window.location.href = "/")
+            ? (window.location.href = "/users")
             : (window.location.href = "/userPage");
         }
       });

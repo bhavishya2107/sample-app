@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 class LoginNavbar extends Component {
   logout() {
     localStorage.clear();
-    window.location.href = "/login";
+    window.location.href = "/";
   }
 
   render() {

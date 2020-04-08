@@ -22,7 +22,7 @@ export default class Register extends Component {
     axios
       .post("https://sample-app-2107.herokuapp.com/api/users", newUser)
       .then((user) => console.log(user))
-      .then((res) => (window.location.href = "/"))
+      .then((res) => (window.location.href = "/users"))
       .catch((err) => console.log(err));
   };
 

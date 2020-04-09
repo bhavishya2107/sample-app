@@ -59,8 +59,6 @@ class Users extends Component {
   };
 
   render() {
-    console.log(this.state);
-
     return (
       <>
         <div className="container pt-5">

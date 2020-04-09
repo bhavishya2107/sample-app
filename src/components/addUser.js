@@ -32,7 +32,7 @@ export default class Register extends Component {
             <div className="col-md-8 m-auto">
               <h3 className=" margin_top">Add User</h3>
               <div className="d-flex">
-                <Link to="/" className="pl-1 pb-1">
+                <Link to="/users" className="pl-1 pb-1">
                   back
                 </Link>
               </div>

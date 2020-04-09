@@ -1,5 +1,5 @@
 import React from "react";
-import { NavLink, Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import LoginNavbar from "./loginNavbar";
 
 export default function Header() {
@@ -13,14 +13,6 @@ export default function Header() {
             <NavLink to="#" className="navbar-brand">
               Sample
             </NavLink>
-            <button
-              className="navbar-toggler"
-              type="button"
-              data-toggle="collapse"
-              data-target="#mobile-nav"
-            >
-              <span className="navbar-toggler-icon"></span>
-            </button>
 
             <div className="collapse navbar-collapse" id="mobile-nav">
               <ul className="navbar-nav ml-auto">
